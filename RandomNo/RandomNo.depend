@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1533466740 source:e:\c_tutorials\randomno\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1532155804 source:e:\c_tutorials\project_tutorials\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1532155679 source:e:\c_tutorials\project_tutorials\variables.c
+	<stdio.h>
+	<stdlib.h>
+

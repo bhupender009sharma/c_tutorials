@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1532172022 source:e:\c_tutorials\input_scanf\main.c
+	<stdio.h>
+	<stdlib.h>
+

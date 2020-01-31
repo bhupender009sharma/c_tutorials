@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1532001931 source:e:\c_tutorials\saadhu'sproject\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1532115357 source:e:\c_tutorials\saadhu'sproject\conversion characters.c
+	<stdio.h>
+	<stdlib.h>
+
+1532001567 source:e:\c_tutorials\saadhu'sproject\how to get to next line, use tab, produce beep.c
+	<stdio.h>
+	<stdlib.h>
+
+1532000943 source:e:\c_tutorials\saadhu'sproject\use of comments.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// WE USE DOUBLE FOR-SLASH FOR WRITING COMMENT IN ONE LINE
+/* AND WE USE FOR SLASH LIKE THIS
+   , IF WE WANT TO WRITE COMMENT IN
+   TWO OR MORE LINES  */
+
+int main()
+{
+
+}
+

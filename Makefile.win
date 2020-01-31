@@ -1,0 +1,31 @@
+# Project: bhupi project 2
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = "creating\ a\ header\ file.o" "GETTING\ INPUT\ WITH\ \ scanf.o"
+LINKOBJ  = "creating a header file.o" "GETTING INPUT WITH  scanf.o"
+LIBS     = -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = "bhupi project 2.exe"
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+"creating\ a\ header\ file.o": creating\ a\ header\ file.c
+	$(CC) -c "creating a header file.c" -o "creating a header file.o" $(CFLAGS)
+
+"GETTING\ INPUT\ WITH\ \ scanf.o": GETTING\ INPUT\ WITH\ \ scanf.c
+	$(CC) -c "GETTING INPUT WITH  scanf.c" -o "GETTING INPUT WITH  scanf.o" $(CFLAGS)

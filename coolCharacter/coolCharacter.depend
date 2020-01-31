@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1533404917 source:e:\c_tutorials\coolcharacter\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<math.h>
+

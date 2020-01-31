@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1532115216 source:e:\c_tutorials\bhupiproject\conversion charactes.c
+	<stdio.h>
+	<stdlib.h>
+
+1532115187 source:e:\c_tutorials\bhupiproject\main.c
+	<stdio.h>
+	<stdlib.h>
+

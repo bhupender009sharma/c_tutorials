@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1533583283 source:e:\c_tutorials\pascaltriangle\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1533583208 source:e:\c_tutorials\pascaltriangle\halnumbers.c
+	<stdio.h>
+	<stdlib.h>
+

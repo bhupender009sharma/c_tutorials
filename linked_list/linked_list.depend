@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1537809577 source:e:\c_tutorials\linked_list\main.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+

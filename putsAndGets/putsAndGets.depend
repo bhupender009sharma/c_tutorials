@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1533451038 source:e:\c_tutorials\putsandgets\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	<ctype.h>
+	<math.h>
+
